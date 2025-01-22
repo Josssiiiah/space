@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1736659164451,
+      "tag": "0000_exotic_norman_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1736673751407,
+      "tag": "0001_legal_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1736749519514,
+      "tag": "0002_dazzling_shiver_man",
+      "breakpoints": true
+    }
+  ]
+}

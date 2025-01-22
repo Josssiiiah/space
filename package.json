@@ -1,0 +1,27 @@
+{
+  "name": "space",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "world": "bun run --cwd backend dev & bun run --cwd frontend dev & bun run --cwd backend drizzle-kit studio",
+    "db:push": "bun run --cwd backend drizzle-kit push",
+    "db:generate": "bun run --cwd backend drizzle-kit generate",
+    "db:migrate": "bun run --cwd backend drizzle-kit migrate",
+    "fmt": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "fmt:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^0.0.6",
+    "better-sqlite3": "^11.7.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.471.1",
+    "prettier": "^3.4.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
